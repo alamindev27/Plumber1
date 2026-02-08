@@ -16,7 +16,6 @@ html, body {
     --text-gray: #6b7280;
     --bg-light: #f8fafc;
     --light-orange: #fff4ed;
-    --footer-bg: #001d33;
     --text-muted: #a0aec0;
     --bg-muted: #f0f2f480;
     --section-padding: 80px 0;
@@ -74,7 +73,7 @@ html, body {
 
 .btn-call {
     background-color: var(--primary-orange);
-    color: white;
+    color: var(--white);
     border-radius: 8px;
     padding: 10px 20px;
     font-weight: 700;
@@ -87,7 +86,7 @@ html, body {
 
 .btn-call:hover {
     background-color: #e66a1f;
-    color: white;
+    color: var(--white);
 }
 
 /* --- Hero Slider --- */
@@ -97,7 +96,7 @@ html, body {
 
 .btn-orange {
     background: var(--primary-orange);
-    color: white;
+    color: var(--white);
     border-radius: 8px;
     font-weight: 600;
     border: none;
@@ -177,7 +176,7 @@ html, body {
     right: 40px;
     background-color: #ff7d29;
     /* Brand Orange */
-    color: white;
+    color: var(--white);
     padding: 25px 20px;
     border-radius: 15px;
     text-align: center;
@@ -318,7 +317,7 @@ html, body {
 
 /* Card Styling */
 .service-card {
-    background: #fff;
+    background: var(--white);
     border: 1px solid transparent;
     border-radius: 15px;
     padding: 40px;
@@ -340,7 +339,7 @@ html, body {
 .icon-box {
     width: 60px;
     height: 60px;
-    background-color: #fff4ed;
+    background-color: var(--light-orange);
     color: var(--primary-orange);
     border-radius: 12px;
     display: flex;
@@ -353,7 +352,7 @@ html, body {
 
 .service-card:hover .icon-box {
     background-color: var(--primary-orange);
-    color: #fff;
+    color: var(--white);
 }
 
 .service-card h3 {
@@ -483,7 +482,7 @@ html, body {
 }
 
 .project-title {
-    color: #fff;
+    color: var(--white);
     font-size: 1.25rem;
     font-weight: 700;
     transform: translateY(20px);
@@ -500,7 +499,7 @@ html, body {
     position: absolute;
     top: 20px;
     right: 20px;
-    color: #fff;
+    color: var(--white);
     background: rgba(255, 255, 255, 0.2);
     width: 35px;
     height: 35px;
@@ -559,7 +558,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -569,7 +568,7 @@ html, body {
     width: 45px !important;
     height: 45px !important;
     border-radius: 50%;
-    color: white !important;
+    color: var(--white) !important;
 }
 
 .custom-nav::after {
@@ -689,7 +688,7 @@ html, body {
 
 /* Right Column: Form Card */
 .contact-card {
-    background: #fff;
+    background: var(--white);
     padding: 45px;
     border-radius: 20px;
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.05);
@@ -729,7 +728,7 @@ html, body {
 .btn-send {
     background-color: var(--primary-orange);
     border: none;
-    color: #fff;
+    color: var(--white);
     padding: 14px 30px;
     border-radius: 12px;
     font-weight: 700;
@@ -752,7 +751,7 @@ html, body {
 
 
 .main-footer {
-    background-color: var(--footer-bg);
+    background-color: var(--dark-blue);
     color: var(--white);
     padding: 80px 0 30px;
 }
@@ -805,7 +804,7 @@ html, body {
 
 .social-btn:hover {
     background-color: var(--primary-orange);
-    color: white;
+    color: var(--white);
     transform: translateY(-3px);
 }
 
